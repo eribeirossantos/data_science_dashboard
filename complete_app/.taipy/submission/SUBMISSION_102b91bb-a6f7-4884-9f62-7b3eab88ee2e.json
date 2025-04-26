@@ -1,0 +1,23 @@
+{
+"id": "SUBMISSION_102b91bb-a6f7-4884-9f62-7b3eab88ee2e",
+"entity_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"entity_type": "SCENARIO",
+"entity_config_id": "scenario",
+"job_ids": [
+"JOB_get_knn_c8915b3a-b068-4679-b08d-516ee9e0cfd9",
+"JOB_get_rnn_eb044fe5-baf1-4f00-8ffe-dee98b4eae19",
+"JOB_build_graph_data_b79e1b66-e983-491a-a965-efaf59b104aa",
+"JOB_build_company_names_6acc39d6-6989-45e2-9670-e27cd81a6cdb",
+"JOB_get_lin_d70d3b81-03f0-4af3-9ee4-49168cbc0004"
+],
+"properties": {},
+"creation_date": "2025-04-26T19:11:21.988550",
+"submission_status": "<SubmissionStatus.COMPLETED: 7>",
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"is_completed": true,
+"is_abandoned": false,
+"is_canceled": false,
+"running_jobs": [],
+"blocked_jobs": [],
+"pending_jobs": []
+}

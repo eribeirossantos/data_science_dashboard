@@ -1,0 +1,20 @@
+{
+"id": "TASK_get_lin_a3f5718e-5797-4e5c-ae27-bc231c99d0ff",
+"owner_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"parent_ids": [
+"SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b"
+],
+"config_id": "get_lin",
+"input_ids": [
+"DATANODE_dates_c5874d0c-d4a0-4a06-90f8-ff8cbca92321",
+"DATANODE_company_1e2af932-1027-47da-9ba1-010ad735a504"
+],
+"function_name": "get_lin",
+"function_module": "__main__",
+"output_ids": [
+"DATANODE_lin_pred_cfdcf725-270e-46cf-bbd1-bdce62765532"
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"skippable": true,
+"properties": {}
+}

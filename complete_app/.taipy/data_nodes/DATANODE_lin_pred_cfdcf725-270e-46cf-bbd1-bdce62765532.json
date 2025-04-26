@@ -1,0 +1,39 @@
+{
+"id": "DATANODE_lin_pred_cfdcf725-270e-46cf-bbd1-bdce62765532",
+"config_id": "lin_pred",
+"scope": "<Scope.SCENARIO: 1>",
+"storage_type": "pickle",
+"owner_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"parent_ids": [
+"TASK_get_lin_a3f5718e-5797-4e5c-ae27-bc231c99d0ff"
+],
+"last_edit_date": "2025-04-26T19:13:26.935958",
+"edits": [
+{
+"job_id": "JOB_get_lin_90ed7c1c-4ac7-495e-aa6a-7653576f20cd",
+"timestamp": "2025-04-26T19:10:02.858568"
+},
+{
+"job_id": "JOB_get_lin_905f82a2-de43-4eab-af55-8170f96e10b4",
+"timestamp": "2025-04-26T19:10:21.407696"
+},
+{
+"job_id": "JOB_get_lin_d70d3b81-03f0-4af3-9ee4-49168cbc0004",
+"timestamp": "2025-04-26T19:11:25.950713"
+},
+{
+"job_id": "JOB_get_lin_57b5d668-d21a-495c-9bec-318d9a80b7b1",
+"timestamp": "2025-04-26T19:13:26.935958"
+}
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"editor_id": null,
+"editor_expiration_date": null,
+"data_node_properties": {
+"is_generated": true,
+"path": "user_data/pickles/DATANODE_lin_pred_cfdcf725-270e-46cf-bbd1-bdce62765532.p"
+}
+}

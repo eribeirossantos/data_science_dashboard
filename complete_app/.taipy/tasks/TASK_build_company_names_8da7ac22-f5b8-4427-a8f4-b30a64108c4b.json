@@ -1,0 +1,19 @@
+{
+"id": "TASK_build_company_names_8da7ac22-f5b8-4427-a8f4-b30a64108c4b",
+"owner_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"parent_ids": [
+"SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b"
+],
+"config_id": "build_company_names",
+"input_ids": [
+"DATANODE_country_cd2ae65e-b49f-4592-b553-8e7dea5713d4"
+],
+"function_name": "build_company_names",
+"function_module": "__main__",
+"output_ids": [
+"DATANODE_company_names_f7a57024-c438-4d11-9a51-705c5172cc39"
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"skippable": true,
+"properties": {}
+}

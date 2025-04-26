@@ -1,0 +1,39 @@
+{
+"id": "DATANODE_knn_pred_351dd29e-8bff-42db-9932-319484530b3f",
+"config_id": "knn_pred",
+"scope": "<Scope.SCENARIO: 1>",
+"storage_type": "pickle",
+"owner_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"parent_ids": [
+"TASK_get_knn_e3e0bfe5-69bb-4d0f-9aca-5de7d22b56ee"
+],
+"last_edit_date": "2025-04-26T19:13:23.564219",
+"edits": [
+{
+"job_id": "JOB_get_knn_4538f711-d0b7-4a7b-9ae3-a964de7c126d",
+"timestamp": "2025-04-26T19:09:59.413730"
+},
+{
+"job_id": "JOB_get_knn_ac15e572-fb77-46b8-a1e0-faa2b59dd318",
+"timestamp": "2025-04-26T19:10:18.090783"
+},
+{
+"job_id": "JOB_get_knn_c8915b3a-b068-4679-b08d-516ee9e0cfd9",
+"timestamp": "2025-04-26T19:11:22.524150"
+},
+{
+"job_id": "JOB_get_knn_1e721758-388d-40cf-bf80-385a6134e511",
+"timestamp": "2025-04-26T19:13:23.564219"
+}
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"editor_id": null,
+"editor_expiration_date": null,
+"data_node_properties": {
+"is_generated": true,
+"path": "user_data/pickles/DATANODE_knn_pred_351dd29e-8bff-42db-9932-319484530b3f.p"
+}
+}

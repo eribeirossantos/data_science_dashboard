@@ -1,0 +1,51 @@
+{
+"id": "DATANODE_rnn_pred_06a9cb00-1b4c-401f-9774-7b5ed9da7883",
+"config_id": "rnn_pred",
+"scope": "<Scope.SCENARIO: 1>",
+"storage_type": "pickle",
+"owner_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"parent_ids": [
+"TASK_get_rnn_3179378f-06ad-4b8a-9d63-6e69b3f66c9d"
+],
+"last_edit_date": "2025-04-26T19:13:26.040483",
+"edits": [
+{
+"job_id": "JOB_get_rnn_2baeab58-7999-41f9-a5c1-9b10fb64d06d",
+"timestamp": "2025-04-26T19:09:10.615548"
+},
+{
+"job_id": "JOB_get_rnn_73eee1da-4716-4e8a-862d-e18813fdbfa9",
+"timestamp": "2025-04-26T19:09:40.689676"
+},
+{
+"job_id": "JOB_get_rnn_5146baa8-773e-47c8-a4e3-44339469029d",
+"timestamp": "2025-04-26T19:10:01.917405"
+},
+{
+"job_id": "JOB_get_rnn_10da82fb-a26b-45e9-b418-55479320b79d",
+"timestamp": "2025-04-26T19:10:20.585321"
+},
+{
+"job_id": "JOB_get_rnn_eb044fe5-baf1-4f00-8ffe-dee98b4eae19",
+"timestamp": "2025-04-26T19:11:25.036963"
+},
+{
+"job_id": "JOB_get_rnn_b293950a-9a6a-4b14-8858-911be297fe10",
+"timestamp": "2025-04-26T19:13:15.203406"
+},
+{
+"job_id": "JOB_get_rnn_c8cf553b-558d-4983-a6e0-bc6bb6a5fd36",
+"timestamp": "2025-04-26T19:13:26.040483"
+}
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"editor_id": null,
+"editor_expiration_date": null,
+"data_node_properties": {
+"is_generated": true,
+"path": "user_data/pickles/DATANODE_rnn_pred_06a9cb00-1b4c-401f-9774-7b5ed9da7883.p"
+}
+}

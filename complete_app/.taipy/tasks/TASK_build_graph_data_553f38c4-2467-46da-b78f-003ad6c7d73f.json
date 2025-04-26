@@ -1,0 +1,20 @@
+{
+"id": "TASK_build_graph_data_553f38c4-2467-46da-b78f-003ad6c7d73f",
+"owner_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"parent_ids": [
+"SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b"
+],
+"config_id": "build_graph_data",
+"input_ids": [
+"DATANODE_dates_c5874d0c-d4a0-4a06-90f8-ff8cbca92321",
+"DATANODE_company_1e2af932-1027-47da-9ba1-010ad735a504"
+],
+"function_name": "build_graph_data",
+"function_module": "__main__",
+"output_ids": [
+"DATANODE_graph_data_4e37e1fa-c6c3-4958-8401-f9e83e046d65"
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"skippable": true,
+"properties": {}
+}

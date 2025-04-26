@@ -1,0 +1,29 @@
+{
+"id": "JOB_get_knn_4538f711-d0b7-4a7b-9ae3-a964de7c126d",
+"task_id": "TASK_get_knn_e3e0bfe5-69bb-4d0f-9aca-5de7d22b56ee",
+"status": "<Status.COMPLETED: 7>",
+"status_change_records": {
+"SUBMITTED": "2025-04-26T19:09:58.881734",
+"PENDING": "2025-04-26T19:09:59.002989",
+"RUNNING": "2025-04-26T19:09:59.137979",
+"COMPLETED": "2025-04-26T19:09:59.446507"
+},
+"force": false,
+"submit_id": "SUBMISSION_69371691-6f2b-4a24-826c-c5ec9bdc3663",
+"submit_entity_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"creation_date": "2025-04-26T19:09:58.881734",
+"subscribers": [
+{
+"fct_name": "_Orchestrator._update_submission_status",
+"fct_params": [],
+"fct_module": "taipy.core._orchestrator._orchestrator"
+},
+{
+"fct_name": "_Orchestrator._on_status_change",
+"fct_params": [],
+"fct_module": "taipy.core._orchestrator._orchestrator"
+}
+],
+"stacktrace": [],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825"
+}

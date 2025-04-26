@@ -1,0 +1,31 @@
+{
+"id": "JOB_get_rnn_b1a16c30-444d-4860-b3c6-dd41f9d29d7b",
+"task_id": "TASK_get_rnn_3179378f-06ad-4b8a-9d63-6e69b3f66c9d",
+"status": "<Status.FAILED: 6>",
+"status_change_records": {
+"SUBMITTED": "2025-04-26T19:09:18.631382",
+"PENDING": "2025-04-26T19:09:18.741429",
+"RUNNING": "2025-04-26T19:09:18.928956",
+"FAILED": "2025-04-26T19:09:18.949933"
+},
+"force": false,
+"submit_id": "SUBMISSION_5fb60261-d205-4b6e-8098-9f2fee1b4800",
+"submit_entity_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"creation_date": "2025-04-26T19:09:18.631382",
+"subscribers": [
+{
+"fct_name": "_Orchestrator._update_submission_status",
+"fct_params": [],
+"fct_module": "taipy.core._orchestrator._orchestrator"
+},
+{
+"fct_name": "_Orchestrator._on_status_change",
+"fct_params": [],
+"fct_module": "taipy.core._orchestrator._orchestrator"
+}
+],
+"stacktrace": [
+"Traceback (most recent call last):\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/taipy/core/_orchestrator/_dispatcher/_task_function_wrapper.py\", line 49, in execute\n    results = self._execute_fct(arguments)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/taipy/core/_orchestrator/_dispatcher/_task_function_wrapper.py\", line 77, in _execute_fct\n    return self.task.function(*arguments)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/erss/data_science_dashboard/complete_app/main.py\", line 286, in get_rnn\n    x, y, eval_x = split_data(stock_data, dates, company[-1])\n                                                 ~~~~~~~^^^^\nIndexError: list index out of range\n"
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825"
+}

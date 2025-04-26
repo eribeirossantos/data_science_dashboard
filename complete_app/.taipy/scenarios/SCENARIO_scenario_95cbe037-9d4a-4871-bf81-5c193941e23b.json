@@ -1,0 +1,20 @@
+{
+"id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"config_id": "scenario",
+"tasks": [
+"TASK_get_knn_e3e0bfe5-69bb-4d0f-9aca-5de7d22b56ee",
+"TASK_get_rnn_3179378f-06ad-4b8a-9d63-6e69b3f66c9d",
+"TASK_build_graph_data_553f38c4-2467-46da-b78f-003ad6c7d73f",
+"TASK_build_company_names_8da7ac22-f5b8-4427-a8f4-b30a64108c4b",
+"TASK_get_lin_a3f5718e-5797-4e5c-ae27-bc231c99d0ff"
+],
+"additional_data_nodes": [],
+"properties": {},
+"creation_date": "2025-04-26T19:08:34.535482",
+"primary_scenario": false,
+"subscribers": [],
+"tags": [],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"sequences": null,
+"cycle": null
+}

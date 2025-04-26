@@ -1,0 +1,30 @@
+{
+"id": "SUBMISSION_7d9e9c77-89ca-43cf-9bb0-e5a63f842e42",
+"entity_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"entity_type": "SCENARIO",
+"entity_config_id": "scenario",
+"job_ids": [
+"JOB_get_knn_dded9116-bb52-42ae-8663-fb097b26dd5a",
+"JOB_get_rnn_73eee1da-4716-4e8a-862d-e18813fdbfa9",
+"JOB_build_graph_data_553ba9cd-3b10-4ecb-8360-6be00bfa2789",
+"JOB_build_company_names_aa4a8206-c287-4794-a46d-36555d96e371",
+"JOB_get_lin_50b54ab3-5890-4b11-b712-c79adf320e93"
+],
+"properties": {},
+"creation_date": "2025-04-26T19:09:37.691320",
+"submission_status": "<SubmissionStatus.FAILED: 6>",
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"is_completed": false,
+"is_abandoned": false,
+"is_canceled": false,
+"running_jobs": [
+"JOB_get_knn_dded9116-bb52-42ae-8663-fb097b26dd5a"
+],
+"blocked_jobs": [],
+"pending_jobs": [
+"JOB_build_graph_data_553ba9cd-3b10-4ecb-8360-6be00bfa2789",
+"JOB_get_lin_50b54ab3-5890-4b11-b712-c79adf320e93",
+"JOB_build_company_names_aa4a8206-c287-4794-a46d-36555d96e371",
+"JOB_get_rnn_73eee1da-4716-4e8a-862d-e18813fdbfa9"
+]
+}

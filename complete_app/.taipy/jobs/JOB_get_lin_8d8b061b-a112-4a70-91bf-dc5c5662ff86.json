@@ -1,0 +1,31 @@
+{
+"id": "JOB_get_lin_8d8b061b-a112-4a70-91bf-dc5c5662ff86",
+"task_id": "TASK_get_lin_a3f5718e-5797-4e5c-ae27-bc231c99d0ff",
+"status": "<Status.FAILED: 6>",
+"status_change_records": {
+"SUBMITTED": "2025-04-26T19:13:09.475631",
+"PENDING": "2025-04-26T19:13:09.577052",
+"RUNNING": "2025-04-26T19:13:15.927464",
+"FAILED": "2025-04-26T19:13:16.185898"
+},
+"force": false,
+"submit_id": "SUBMISSION_14fd7c63-cb17-4721-b259-32e75e4ac729",
+"submit_entity_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"creation_date": "2025-04-26T19:13:09.475631",
+"subscribers": [
+{
+"fct_name": "_Orchestrator._update_submission_status",
+"fct_params": [],
+"fct_module": "taipy.core._orchestrator._orchestrator"
+},
+{
+"fct_name": "_Orchestrator._on_status_change",
+"fct_params": [],
+"fct_module": "taipy.core._orchestrator._orchestrator"
+}
+],
+"stacktrace": [
+"Traceback (most recent call last):\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/taipy/core/_orchestrator/_dispatcher/_task_function_wrapper.py\", line 49, in execute\n    results = self._execute_fct(arguments)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/taipy/core/_orchestrator/_dispatcher/_task_function_wrapper.py\", line 77, in _execute_fct\n    return self.task.function(*arguments)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/erss/data_science_dashboard/complete_app/main.py\", line 256, in get_lin\n    lin_model.fit(x, y)\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/sklearn/base.py\", line 1473, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/sklearn/linear_model/_base.py\", line 609, in fit\n    X, y = self._validate_data(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/sklearn/base.py\", line 650, in _validate_data\n    X, y = check_X_y(X, y, **check_params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 1301, in check_X_y\n    X = check_array(\n        ^^^^^^^^^^^^\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 1064, in check_array\n    _assert_all_finite(\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 123, in _assert_all_finite\n    _assert_all_finite_element_wise(\n  File \"/home/erss/miniconda3/envs/ds/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 172, in _assert_all_finite_element_wise\n    raise ValueError(msg_err)\nValueError: Input X contains NaN.\nLinearRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values\n"
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825"
+}

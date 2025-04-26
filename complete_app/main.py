@@ -30,6 +30,10 @@ import pandas as pd
 stock_data = pd.read_csv("data/sp500_stocks.csv")
 company_data = pd.read_csv("data/sp500_companies.csv")
 
+# preencher NaN com zero
+stock_data = stock_data.fillna(0)
+company_data = company_data.fillna(0)
+
 # contry names and icons [for slider]
 country_names = company_data["Country"].unique().tolist()
 country_names = [(i, Icon("images/flags/" + i + ".png", i)) for i in country_names]

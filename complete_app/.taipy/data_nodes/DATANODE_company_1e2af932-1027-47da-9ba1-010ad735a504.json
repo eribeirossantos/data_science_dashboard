@@ -1,0 +1,50 @@
+{
+"id": "DATANODE_company_1e2af932-1027-47da-9ba1-010ad735a504",
+"config_id": "company",
+"scope": "<Scope.SCENARIO: 1>",
+"storage_type": "pickle",
+"owner_id": "SCENARIO_scenario_95cbe037-9d4a-4871-bf81-5c193941e23b",
+"parent_ids": [
+"TASK_get_lin_a3f5718e-5797-4e5c-ae27-bc231c99d0ff",
+"TASK_get_knn_e3e0bfe5-69bb-4d0f-9aca-5de7d22b56ee",
+"TASK_get_rnn_3179378f-06ad-4b8a-9d63-6e69b3f66c9d",
+"TASK_build_graph_data_553f38c4-2467-46da-b78f-003ad6c7d73f"
+],
+"last_edit_date": "2025-04-26T19:13:23.015970",
+"edits": [
+{
+"timestamp": "2025-04-26T19:09:06.805210"
+},
+{
+"timestamp": "2025-04-26T19:09:18.528624"
+},
+{
+"timestamp": "2025-04-26T19:09:37.656026"
+},
+{
+"timestamp": "2025-04-26T19:09:58.792380"
+},
+{
+"timestamp": "2025-04-26T19:10:17.533395"
+},
+{
+"timestamp": "2025-04-26T19:11:21.957625"
+},
+{
+"timestamp": "2025-04-26T19:13:09.308933"
+},
+{
+"timestamp": "2025-04-26T19:13:23.015970"
+}
+],
+"version": "d07db358-857e-4aaf-bcf0-13ecbcb73825",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"editor_id": null,
+"editor_expiration_date": null,
+"data_node_properties": {
+"is_generated": true,
+"path": "user_data/pickles/DATANODE_company_1e2af932-1027-47da-9ba1-010ad735a504.p"
+}
+}
