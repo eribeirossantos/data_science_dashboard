@@ -1,13 +1,6 @@
 # data_science_dashboard
 dynamic data science dashboard with Taipy Scenarios
 
-## Introduction
-
-This repository stores the code of a Full Stack GUI App Project featured in my <a href="https://youtu.be/hxYIpH94u20" target="_blank">Youtube tutorial</a>.
-<br>
-<br>
-<img src="https://github.com/user-attachments/assets/0e9cc143-1eb1-432f-a476-f53921b63335" width=600px>
-
 ## Requirements
 - `taipy >= 4.0.0` (previous versions do no have `tp.Orchestrator()` but use `tp.Core()` instead)
 - `plotly == 5.24.1`
@@ -47,26 +40,3 @@ https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks
 
 ## Further Learning
 Please checkout Taipy's <a href="https://links.taipy.io/Mariya" target="_blank">Official Github Repo</a> for more details and contribution guidelines.
-
-## Connect with me
-<b>⭐ YouTube</b>
-<br>
-     https://youtube.com/@pythonsimplified
-<br>
-<b>⭐ Discord</b>
-<br>
-     https://discord.com/invite/wgTTmsWmXA
-<br>
-<b>⭐ LinkedIn</b>
-<br>
-     https://ca.linkedin.com/in/mariyasha888
-<br>
-<b>⭐ Twitter</b>
-<br>
-     https://twitter.com/mariyasha888
-<br>
-<b>⭐ Blog</b>
-<br>
-     https://www.pythonsimplified.org
-
-
